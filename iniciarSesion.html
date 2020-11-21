@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/registro.css ">
+    <link rel="stylesheet" href="css/materialize.css">   
+</head>
+<body>
+    <div class="caja" >
+        <img class ="avatar"src="Logo/globo.png" alt="Logo">
+        <h1>Iniciar Sesión</h1>
+        
+            <label for="usuario">Usuario</label>
+            <input type="text" placeholder="Ingrese usuario" id="emailfirebase">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" placeholder="Ingrese contraseña" id="passwordfirebase">
+    
+            <button class="btn waves-effect waves-light centered" style="margin: auto;
+            margin-left: auto;
+            text-align: center;
+            display: table;"  
+            onclick="signIn()">Iniciar Sesión</button>
+<br>
+            
+            <a href="crearCuenta.html" style="align-content: center;
+            display: table;
+            margin: auto;">¿Crear cuenta?</a>
+
+    </div>
+  </body>
+
+  <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+    <script src="js/iniciarSesion.js"></script>
+    <script src="js/materialize.js"></script>
+
+</html>
